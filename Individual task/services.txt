@@ -1,0 +1,4 @@
+Communication			1	0.30	min
+SMS				2	0.15	#
+Roaming				3	10	min
+Intercity_tariff		4	50	min	
