@@ -15,7 +15,7 @@ struct Student{
 }x[10] {};
 
 // Добавление студентов
-void Input(Student* x) {
+void Input(Student x[]) {
     ofstream file_out;
     ifstream file_in;
 
@@ -127,7 +127,7 @@ void Read() {
 };
 
 // Сортировка
-void Sorted(Student *x) {
+void Sorted(Student x[]) {
 
     ifstream file_in;
     Student temp;
@@ -270,7 +270,7 @@ void Sorted(Student *x) {
 };
 
 //Функция нахождения 
-void Find(Student* x) {
+void Find(Student x[]) {
     ifstream file_in;
 
     int n = 0;
