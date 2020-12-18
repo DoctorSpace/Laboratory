@@ -30,3 +30,6 @@
 * Сравниваем, когда была запущена программа и год операции ```year```, а так же сверяем номера из info ```info[i].date``` и user_id ```people[line_user_2]```
 * Записываем результаты второго абонента в файл ```Report.txt```
 * Закрываем файл отчёта ```Report.txt```
+
+<a  href="https://github.com/DoctorSpace/Laboratory/blob/main/Individual%20task/diagrama.jpg?raw=true"> #Diagramma </a>
+<img src="https://github.com/DoctorSpace/Laboratory/blob/main/Individual%20task/diagrama.jpg?raw=true" alt="Diagramma">
