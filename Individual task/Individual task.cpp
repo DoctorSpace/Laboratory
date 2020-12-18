@@ -38,7 +38,7 @@ struct info_serv {
 	char time[20];
 	char price[10];
 
-}info[40] {};
+}info[100] {};
 
 
 int main() {
