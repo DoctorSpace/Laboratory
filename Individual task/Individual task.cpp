@@ -164,6 +164,26 @@ int main() {
 			case 4:
 				file_out << serv[3].name_ser << endl;
 				break;
+			case 5:
+				file_out << serv[4].name_ser << endl;
+				break;
+			case 6:
+				file_out << serv[5].name_ser << endl;
+				break;
+			case 7:
+				file_out << serv[6].name_ser << endl;
+				break;
+			case 8:
+				file_out << serv[7].name_ser << endl;
+				break;
+			case 9:
+				file_out << serv[8].name_ser << endl;
+				break;
+			case 10:
+				file_out << serv[9].name_ser << endl;
+				break;
+			default:
+				file_out << "ERROR услега не найдена!";
 			}
 		}
 	}
@@ -210,6 +230,26 @@ int main() {
 			case 4:
 				file_out << serv[3].name_ser << endl;
 				break;
+			case 5:
+				file_out << serv[4].name_ser << endl;
+				break;
+			case 6:
+				file_out << serv[5].name_ser << endl;
+				break;
+			case 7:
+				file_out << serv[6].name_ser << endl;
+				break;
+			case 8:
+				file_out << serv[7].name_ser << endl;
+				break;
+			case 9:
+				file_out << serv[8].name_ser << endl;
+				break;
+			case 10:
+				file_out << serv[9].name_ser << endl;
+				break;
+			default:
+				file_out << "ERROR услега не найдена!";
 			}
 		}
 	}
