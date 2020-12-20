@@ -29,3 +29,6 @@
 * Проверяем пользовались услугами абоненты в прошлом месяце, а так же сравниваем номера телефонов из info и user_id
 * Записываем результаты в файл ```Report.txt```
 * Закрываем файл отчёта ```Report.txt```
+
+<a  href="https://github.com/DoctorSpace/Laboratory/blob/main/Individual%20task%20others/diagrama.png?raw=true"> #Diagramma </a>
+<img src="https://github.com/DoctorSpace/Laboratory/blob/main/Individual%20task%20others/diagrama.png?raw=true" alt="Diagramma">
