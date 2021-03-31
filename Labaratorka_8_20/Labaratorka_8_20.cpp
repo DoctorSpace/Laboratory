@@ -1,8 +1,6 @@
-﻿#include <iostream>
+#include <iostream>
 #include <stack>
-#include <cctype>
 #include <map>
-#include <algorithm>
 #include <string>
 #include <fstream>
 
@@ -10,9 +8,10 @@ using namespace std;
 
 string RPN(string str) {
 
-	string srpn;
-	map<char, size_t> map;				// карта весов символов
-	map.insert(make_pair('*', 3));
+	string srpn;					// выходной массив
+	
+	map<char, size_t> map;				// карта весов символов и их приоритеты
+	map.insert(make_pair('*', 3));			// map - ключ и приоритет | make_pair - создать пару
 	map.insert(make_pair('/', 3));
 	map.insert(make_pair('+', 2));
 	map.insert(make_pair('-', 2));
@@ -21,8 +20,8 @@ string RPN(string str) {
 	stack<char> stack;
 
 	for (auto c : str) {					// формировка результирующей строки в ОПЗ
-											// c эквивалентно str[i]
-		if (!isalnum(c) && ('.' != c)){		//Проверка на операцию
+								// c эквивалентно str[i]
+		if (!isalnum(c) && ('.' != c)){			//Нету ли числа и не точка ли это
 			if (')' == c) {
 				while (stack.top() != '(') {
 					srpn += stack.top();
@@ -49,11 +48,11 @@ string RPN(string str) {
 		}
 
 		else {
-			srpn += c; //Проверка элемента, если число - выводит в конечный результат
+			srpn += c; 		//Проверка элемента, если число - выводит в конечный результат
 		}
 	}
 
-	while (!stack.empty()) { // остаток из стека добавляется в результ. строку
+	while (!stack.empty()) { 		// остаток из стека добавляется в результ. строку
 		srpn += stack.top();
 		stack.pop();
 	}
